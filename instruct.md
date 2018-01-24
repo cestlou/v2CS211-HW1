@@ -24,8 +24,6 @@ argument constructor.
 returns the first element (a Purchase object) of the array.
 * Default constructor that creates a new array Purchase[100], and initializes number of purchases
 to zero.
----
-### Overloaded add method:
 * add(Purchase, int) say we are purchasing an int number of that item. This is tricky, because if you already have that purchase in the basket, you must change it (or remove it) so the new quantity is correct for the second passed parameter. We do not just add more, it’s a replacement process.
 * add(Purchase) will leave the quantity purchased at whatever is already in the Purchase parameter.
 Homework 1 CS 211 Due Date: 1/18/2018 11:59pm
